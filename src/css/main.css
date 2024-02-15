@@ -9,9 +9,9 @@
     @apply box-border list-none p-0 m-0 scroll-smooth;
   }
 
-  body {
+  /* body {
     @apply bg-dark-1 text-white min-h-screen font-inter;
-  }
+  } */
 }
 
 @layer utilities {
@@ -156,9 +156,9 @@
     @apply bg-dark-2 w-full max-w-5xl rounded-[30px] flex-col flex xl:flex-row border border-dark-4 xl:rounded-l-[24px];
   }
 
-  .post_details-img {
+  /* .post_details-img {
     @apply h-80 lg:h-[480px] xl:w-[48%] rounded-t-[30px] xl:rounded-l-[24px] xl:rounded-tr-none object-cover p-5 bg-dark-1;
-  }
+  } */
 
   .post_details-info {
     @apply bg-dark-2 flex flex-col gap-5 lg:gap-7 flex-1 items-start p-8 rounded-[30px];
